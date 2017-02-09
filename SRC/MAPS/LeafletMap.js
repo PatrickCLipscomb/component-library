@@ -1,8 +1,9 @@
 import React from 'react';
 import {Map, TileLayer, Marker, Popup} from 'react-leaflet';
-import styles from './LeafletMap.styles.css';
+import styles from './LeafletMap.css';
 
 const LeafletMap = () => {
+  require('../../assets/leaflet.css');
   const position = [45.52, -122.67];
   const zoomLvl = 12;
     return (

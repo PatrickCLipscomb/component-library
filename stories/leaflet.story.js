@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
-import { LeafletMap } from '../components';
+import { MAPS } from '../SRC';
 
 const displayName = LeafletMap.displayName || 'LeafletMap';
-const title = 'sample usage';
+const title = 'Simple usage';
 const description = `
   This is some basic usage that will show a map that is centered on Portland, OR.`;
 

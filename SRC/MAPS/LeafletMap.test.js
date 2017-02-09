@@ -4,8 +4,13 @@ import LeafletMap from './LeafletMap';
 
 // Getting there, will update soon...
 // TESTING SAYS REFEENCE ERROR: WINDOW IS NOT DEFINED
-describe('LeafletMap', () => {
+
+describe('LeafletMap', function() {
+  beforeEach(() => {
+    var window = {};
+  })
   const wrapper = shallow(<LeafletMap />);
+  console.log(wrapper);
   it('should expect to find a div element', () => {
     expect(wrapper.find('div')).have.length(1);
   })
