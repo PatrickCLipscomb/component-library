@@ -9,7 +9,7 @@ import Slider from './Slider/Slider';
 import Header from './Navigation/Header';
 import Nav from './Navigation/Nav';
 import NavRouterLink from './Navigation/NavRouterLink';
-import LeafletMap from './LeafletMap/LeafletMap';
+import LeafletMap from './MAPS/LeafletMap';
 
 export {
   BarChart,

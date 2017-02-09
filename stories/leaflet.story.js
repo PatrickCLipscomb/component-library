@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
-import { MAPS } from '../SRC';
+import { LeafletMap } from '../SRC';
 
 const displayName = LeafletMap.displayName || 'LeafletMap';
 const title = 'Simple usage';
