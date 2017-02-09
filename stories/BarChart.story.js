@@ -2,6 +2,7 @@ import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import { BarChart } from '../src';
 
+
 const displayName = BarChart.displayName || 'BarChart';
 const title = 'Simple usage';
 const description = `
